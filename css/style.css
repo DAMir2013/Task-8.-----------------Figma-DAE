@@ -1,0 +1,420 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    max-width: 1440px;
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    min-height: 47px;
+    background-color: #B36050;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header p {
+    font-size: 17px;
+    line-height: 27.2px;
+    color: #F1D3B9;
+}
+
+.menu,
+.menu-item a {
+    color: #B4604D;
+    text-decoration: none;
+}
+
+.menu-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item {
+    width: 424px;
+}
+
+.menu-item ul {
+    display: flex;
+    gap: 32px;
+    padding-left: 8px;
+    list-style: none;
+    font-size: 18px;
+    line-height: 28.8px;
+}
+
+/* .menu-logo-img {} */
+
+.menu-account {
+    width: 432px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: end;
+    margin-right: 8px;
+}
+
+.basket-counter {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.shop-now {
+    background-color: #A9AE8D;
+    min-height: 304px;
+}
+
+.shop-now-container {
+    margin-left: 70px;
+    color: #F6F4EC;
+}
+
+.shop-now-container h2 {
+    font-size: 18px;
+    line-height: 28.8px;
+    padding-top: 69px;
+    margin-bottom: 15px;
+}
+
+.shop-now-container h1 {
+    font-size: 33px;
+    line-height: 64px;
+    margin-bottom: 30px;
+}
+
+.shop-now-container a {
+    font-size: 16px;
+    line-height: 27.2px;
+    text-decoration: none;
+    color: #F6F4EC;
+}
+
+.price {
+    min-height: 835px;
+    text-align: center;
+}
+
+.price h2 {
+    color: #B45F4D;
+    font-size: 23px;
+    line-height: 39.2px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+.price-inner {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.price-item {
+    text-align: left;
+    color: #B45F4D;
+}
+
+.price-item h3 {
+    font-size: 18px;
+    line-height: 25.2px;
+}
+
+.price-item p {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+/* feel  */
+
+.feel {
+    margin-bottom: 50px;
+}
+
+.feel-container {
+    max-width: 1219px;
+    margin: 0 auto;
+}
+
+.feel-bg-img {
+    background-image: url(../img/image\ 3.png);
+    min-height: 414px;
+    position: relative;
+    color: #F6F4EC;
+}
+
+.feel-description {
+    background-color: #DF9B7A;
+    min-height: 92px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 322px;
+}
+
+.feel-description h2 {
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 30px;
+}
+
+.feel-description a {
+    color: #F6F4EC;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 28.8px;
+    margin-right: 30px;
+}
+
+.meet-dae {
+    min-height: 74.24vw;
+    background-color: #F1D3B9;
+}
+
+.meet-img {
+    margin-left: 12.7vw;
+    padding-top: 9.92vh;
+    margin-bottom: 9.92vh;
+    position: relative;
+}
+
+.meet-img img {
+    width: 43.9vw;
+    max-height: 154vh;
+}
+
+.meet-description {
+    position: absolute;
+    background-color: #F8F8F8;
+    width: 35.97vw;
+    height: 40vw;
+    top: 19.8vw;
+    right: 10.9vw;
+
+}
+
+.meet-description-container {
+    width: 28.9vw;
+    margin: 0 auto;
+    color: #B45F4D;
+    text-align: left;
+}
+
+.meet-description-container h2 {
+    font-size: 30px;
+    line-height: 57.6px;
+    padding-top: 50px;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+.meet-description-container p {
+    font-size: 19px;
+    line-height: 30.4px;
+    margin-bottom: 41px;
+}
+
+.meet-description-container a {
+    font-size: 16px;
+    line-height: 25.6px;
+    text-decoration: none;
+    color: #B45F4D;
+}
+
+/* follow */
+
+.follow {
+    min-height: 260px;
+}
+
+.follow h2 {
+    font-size: 23px;
+    line-height: 39.2px;
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 43px;
+}
+
+.follow-inner {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* FOOTER */
+.footer {
+    border-top: 2px solid #C17C6C;
+    background-color: #F6F4EC;
+    height: 401px;
+    color: #C17C6C;
+    min-height: 401px;
+
+}
+
+.footer-container {
+    max-width: 93%;
+    height: 278px;
+    margin: 60px auto;
+}
+
+.footer-inner {
+    display: flex;
+    gap: 27.8vw;
+}
+
+.footer-item-left-box {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 19.6px;
+}
+
+.footer-item-left-box ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-item-left-box a {
+    text-decoration: none;
+    color: #C17C6C;
+}
+
+.footer-item-left-box-left,
+.footer-item-left-box-right {
+    width: 201px;
+}
+
+.footer-item-right h2,
+.footer-item-right p {
+    font-size: 14px;
+    line-height: 22.4px;
+    font-weight: 400;
+}
+
+.footer-item-right h2 {
+    margin-bottom: 19px;
+}
+
+
+.footer-container>p {
+    font-size: 14px;
+    line-height: 22.4px;
+    padding-top: 145px;
+}
+
+
+@media screen and (max-width:1280px) {
+
+    .price-item {
+        margin-bottom: 30px;
+    }
+
+    .meet-description-container h2 {
+        font-size: 25px;
+        line-height: 50px;
+        padding-top: 40px;
+        margin-bottom: 22px;
+        text-align: center;
+    }
+
+    .meet-description-container p {
+        font-size: 16px;
+        line-height: 27px;
+        margin-bottom: 15px;
+    }
+
+    .meet-description-container a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    .price-item {
+        margin-bottom: 30px;
+    }
+
+    .meet-description-container h2 {
+        font-size: 16px;
+        line-height: 32px;
+        padding-top: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .meet-description-container p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+
+    .meet-description-container a {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .menu-item {
+        display: none;
+    }
+
+    .price-item {
+        margin-bottom: 15px;
+    }
+
+    .meet-description-container {
+        margin-left: 5px;
+    }
+
+    .meet-description-container h2 {
+        font-size: 14px;
+        line-height: 24px;
+        padding-top: 10px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .meet-description-container p {
+        font-size: 10px;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+
+    .meet-description-container a {
+        font-size: 10px;
+        line-height: 10px;
+        text-decoration: none;
+        color: #B45F4D;
+    }
+
+    .footer-item-right {
+        width: 35vw;
+    }
+
+    .footer-item-right h2,
+    .footer-item-right p {
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 400;
+    }
+
+    .footer-inner {
+        display: flex;
+        gap: 10vw;
+    }
+}
